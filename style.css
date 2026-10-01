@@ -30,6 +30,8 @@ padding-top: 32px;
 
 .nav__row {
   display: flex;
+  width: 100%;
+  justify-content: space-between;
 }
 
 .nav__logo {
@@ -65,4 +67,8 @@ padding-top: 32px;
     margin: 0 24px;
     text-decoration: none;
 
+    }
+
+    .btn__menu {
+      display: none;
     }
